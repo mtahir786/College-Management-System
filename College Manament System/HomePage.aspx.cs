@@ -14,14 +14,19 @@ namespace College_Manament_System
 
         }
 
-        protected void Student_Page_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Student_login.aspx");
-        }
+
 
         protected void Faculty_Page_Click(object sender, EventArgs e)
         {
             Response.Redirect("Faculty_login.aspx");
         }
+
+        protected void Student_Page_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Student_login.aspx");
+
+        }
+
+
     }
 }

@@ -73,7 +73,7 @@
                 <asp:TextBox ID="Tb_StudentUN" runat="server" CssClass="auto-style10" OnTextChanged="Tb_StudentUN_TextChanged"></asp:TextBox>
                 <asp:Label ID="Student_UserName" runat="server" CssClass="auto-style12" Text="Username" Font-Bold="True"></asp:Label>
                 <asp:Label ID="Student_passwd" runat="server" CssClass="auto-style13" Text="Password" Font-Bold="True"></asp:Label>
-                <asp:Button ID="Button1" runat="server" BackColor="#CC3300" BorderStyle="Solid" Text="Submit" BorderColor="#CC3300" Font-Bold="True" ForeColor="Black" OnClick="Button1_Click" CssClass="auto-style8" />
+                <asp:Button ID="ButtonLogIn" runat="server" BackColor="#CC3300" BorderStyle="Solid" Text="Log In" BorderColor="#CC3300" Font-Bold="True" ForeColor="Black" OnClick="ButtonLogIn_Click" CssClass="auto-style8" />
             </div>
     </form>
         

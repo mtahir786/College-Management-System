@@ -16,7 +16,7 @@ namespace College_Manament_System
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void ButtonLogIn_Click(object sender, EventArgs e)
         {
 
         }
