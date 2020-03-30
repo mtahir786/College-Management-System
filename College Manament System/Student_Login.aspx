@@ -70,7 +70,7 @@
                 <h1 class="auto-style14">Student Login</h1>
                 <asp:TextBox ID="tb_StudentPass" runat="server" CssClass="auto-style11" TextMode="Password"></asp:TextBox>
 
-                <asp:TextBox ID="Tb_StudentUN" runat="server" CssClass="auto-style10" OnTextChanged="Tb_StudentUN_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="Tb_StudentUN" runat="server" CssClass="auto-style10" ></asp:TextBox>
                 <asp:Label ID="Student_UserName" runat="server" CssClass="auto-style12" Text="Username" Font-Bold="True"></asp:Label>
                 <asp:Label ID="Student_passwd" runat="server" CssClass="auto-style13" Text="Password" Font-Bold="True"></asp:Label>
                 <asp:Button ID="ButtonLogIn" runat="server" BackColor="#CC3300" BorderStyle="Solid" Text="Log In" BorderColor="#CC3300" Font-Bold="True" ForeColor="Black" OnClick="ButtonLogIn_Click" CssClass="auto-style8" />

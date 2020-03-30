@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace College_Manament_System
 {
-    public partial class Admin : System.Web.UI.MasterPage
+    public partial class AdminMasterPage : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -63,6 +63,7 @@ namespace College_Manament_System
 
             cmd.ExecuteNonQuery();
             con.Close();
+            Response.Redirect("AllStudents.aspx");
 
             // Generate new id
             //String strSql;
@@ -89,15 +90,12 @@ namespace College_Manament_System
 
         }
 
-        protected void ImgBtnCalendar_Click(object sender, ImageClickEventArgs e)
-        {
-          
-        }
+
 
         protected void CalendarDOB_SelectionChanged(object sender, EventArgs e)
         {
            
         }
-
+ 
     }
 }

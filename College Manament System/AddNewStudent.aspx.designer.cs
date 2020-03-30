@@ -175,13 +175,13 @@ namespace College_Manament_System {
         protected global::System.Web.UI.WebControls.TextBox txtFatherName;
         
         /// <summary>
-        /// RegularExpressionValidator1 control.
+        /// RegularExpressionEmailValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionEmailValidator;
         
         /// <summary>
         /// ImgBtnCalendar control.
@@ -191,14 +191,5 @@ namespace College_Manament_System {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImgBtnCalendar;
-        
-        /// <summary>
-        /// CalendarDOB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar CalendarDOB;
     }
 }

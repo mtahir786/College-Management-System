@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.master.cs" Inherits="College_Manament_System.AdminMasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            height: 792px;
+            margin: 0px;
+            overflow-x: hidden;
+            
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+            .sidenav a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+
+        .main {
+            margin-left: 205px; /* Same as the width of the sidenav */
+            /*font-size: 28px;  Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+                .sidenav a {
+                    font-size: 18px;
+                }
+        }
+
+        header {
+            margin-top: 0;
+            margin-left: 200px; /* Same as the width of the sidenav */
+            padding: 0px 10px;
+            text-align: center;
+            background-color: #C0C0C0;
+            
+            
+        }
+
+        h1 {
+            margin-top: 0;    
+            margin-left: 0px;
+            height: 60px;
+            width: 1603px;
+            
+        }
+
+
+        .auto-style2 {
+            margin-left: 205px; /* Same as the width of the sidenav */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+            width: 1592px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="sidenav">
+  <br/><br/><br/>
+  <hr>
+  <a href="#about">Home</a>
+  <hr>
+  <a href="CoursesTest.aspx">Courses</a>
+  <hr>
+  <a href="AddNewStudent.aspx">Students</a>
+  <hr>
+  <a href="#contact">Subjects</a>
+  <hr>
+  <a href="#contact">Faculties</a>
+  <hr>
+  <a href="#contact">TimeTable</a>
+  <hr>
+</div>
+<header>
+  <h1>College Management System</h1>
+</header>
+
+<div class="auto-style2">
+    <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    </form>
+</div>
+   
+</body>
+</html> 

@@ -7,11 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace College_Manament_System
 {
-    public partial class Faculty : System.Web.UI.MasterPage
+    public partial class AllStudents : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void AddStudent_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddNewStudent.aspx");
         }
     }
 }
